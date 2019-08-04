@@ -1,0 +1,76 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  margin-top: 19px;
+}
+
+button {
+  cursor: pointer;
+}
+
+p,
+li {
+  font-size: 1rem;
+}
+
+/* h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+} */
+
+.MainMeter {
+  background-color: #5169978a;
+  margin-top: 10px;
+  border: 2px solid #495057;
+  padding: 6px 0px 18px 1px;
+}
+.FirstMeter {
+  background-color: #519757c9;
+  margin-top: 10px;
+  border: 2px solid #495057;
+  padding: 6px 0px 18px 1px;
+}
+.SecondMeter {
+  background-color: #975551a3;
+  margin-top: 10px;
+  border: 2px solid #495057;
+  padding: 6px 0px 18px 1px;
+}
+.ThirdMeter {
+  background-color: #0029ff5e;
+  margin-top: 10px;
+  border: 2px solid #495057;
+  padding: 6px 0px 18px 1px;
+}
+.calbutton {
+  border: 1px solid;
+  background: #a687de3b;
+  padding: 15px 3px 22px 0px;
+  margin: 16px 11px 11px 0px;
+}
+
+.FinalRow {
+  background-color: #fd00ff4f;
+  margin-top: 20px;
+  border: 2px solid #495057;
+  padding: 18px 3px 17px 1px;
+}
